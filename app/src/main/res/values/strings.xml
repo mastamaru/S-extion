@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">S-extion</string>
+    <string name="profile">Profil</string>
+    <string name="home">Beranda</string>
+    <string name="chat">Konseling</string>
+    <string name="remaja1">Materi - Perubahan Bentuk Tubuh</string>
+    <string name="remaja2">Materi - Kesehatan Reproduksi</string>
+    <string name="remaja3">Materi - Pendidikan Seksual</string>
+    <string name="remaja4">Materi - Seks Bebas dan Risikonya</string>
+    <string name="ortu1">Materi \n Usia 3 \n 5 Tahun</string>
+    <string name="ortu2">Materi \n Usia 6\n9 Tahun</string>
+    <string name="ortu3">Materi \n Usia 9\n12 Tahun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comingsoon">Segera dirilis!</string>
+
+</resources>

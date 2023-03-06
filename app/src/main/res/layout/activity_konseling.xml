@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Konseling">
+
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:gravity="center"
+        android:text="@string/comingsoon"
+        android:textColor="@color/blue"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/buttonHome"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/home"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="35dp"
+                android:text="Beranda"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonChat"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+
+                android:src="@drawable/chat"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:text="Konseling"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/buttonProfile"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/profile"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="35dp"
+                android:text="Profil"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
