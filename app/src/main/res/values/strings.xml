@@ -19,6 +19,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="comingsoon">Segera dirilis!</string>
 <!--Berita materi 1-->
-    <string name="judul_pk1">PENTINGNYA PENDIDIKAN SEKSUAL SEJAK DINI</string>
+    <string name="judul_pk1">Pentingnya Pendidikan Seksual Sejak Dini</string>
+
+<!-- berita meteri 2-->
+    <string name="judul_pk2">Alasan Pentingnya Memberikan Pendidikan Seks untuk Anak</string>
 
 </resources>

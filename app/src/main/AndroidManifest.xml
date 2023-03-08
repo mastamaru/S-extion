@@ -12,9 +12,6 @@
         android:theme="@style/Theme.Sextion"
         tools:targetApi="31">
         <activity
-            android:name=".tipe_dropdown"
-            android:exported="false" />
-        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
