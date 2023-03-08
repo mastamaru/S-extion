@@ -10,8 +10,15 @@
     <string name="ortu1">Materi \n Usia 3 \n 5 Tahun</string>
     <string name="ortu2">Materi \n Usia 6\n9 Tahun</string>
     <string name="ortu3">Materi \n Usia 9\n12 Tahun</string>
+    <string name="pekerjaan1">Pelajar</string>
+    <string name="pekerjaan2">Orangtua</string>
+    <string name="riwayat">Riwayat Transaksi</string>
+    <string name="editprofil">Edit Profil</string>
+    <string name="nohp">+628962132221</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="comingsoon">Segera dirilis!</string>
+<!--Berita materi 1-->
+    <string name="judul_pk1">PENTINGNYA PENDIDIKAN SEKSUAL SEJAK DINI</string>
 
 </resources>
