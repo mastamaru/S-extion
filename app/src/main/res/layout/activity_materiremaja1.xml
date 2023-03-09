@@ -15,9 +15,10 @@
 
         <ImageButton
             android:id="@+id/backToHome"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:background="@color/white"
+            android:contentDescription="@string/back"
             android:src="@drawable/back" />
 
         <TextView
@@ -37,6 +38,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/berita_pk1"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:paddingHorizontal="16dp"

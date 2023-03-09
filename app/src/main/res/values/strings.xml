@@ -3,6 +3,7 @@
     <string name="profile">Profil</string>
     <string name="home">Beranda</string>
     <string name="chat">Konseling</string>
+    <string name="back">Back</string>
     <string name="remaja1">Materi - Perubahan Bentuk Tubuh</string>
     <string name="remaja2">Materi - Kesehatan Reproduksi</string>
     <string name="remaja3">Materi - Pendidikan Seksual</string>
@@ -18,10 +19,19 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="comingsoon">Segera dirilis!</string>
-<!--Berita materi 1-->
+    <!--Berita materi 1-->
     <string name="judul_pk1">Pentingnya Pendidikan Seksual Sejak Dini</string>
+    <string name="penulis">Oleh dr. Alvinia Hayulani, SP.KJ</string>
+    <string name="isi_pk1">Banyaknya  kasus – kasus  kekerasan seksualitas  yang terjadi pada anak yang menyita perhatian kita semua dimulai dari anak kecanduan pornografi, menonton blue film, menjadi korban pemerkosaan ,mengalami pelecehan seksual berkali- kali dari anggota keluarga keluarga/ orang terdekat. Melalui siaran radio kesehatan kemenkes RI dr. Alvinia Hayulani, SP.KJ menyampaikan. Pentingnya  pendidikan seksual  kepada anak sedini mungkin,  agar anak  bisa melindungi  diri dari risiko kekerasan  dan pelecehan seksual di kemudian hari. Banyak orang tua yang sudah mulai sadar akan hal pentingnya pendidikan seksual bagi anak, namun masih banyak yang bingung harus mulai dari mana, karena seks dianggap yang cukup tabu, pendidikan seks sudah  masuk dalam kurikulum sekolah, didalam pengajaran mengenai kesehatan organ reproduksi. </string>
+    <string name="bold_pk1">SIAPA YANG BERTANGGUNG JAWAB DALAM MEMBERIKAN EDUKASI?</string>
+    <string name="isi2_pk1">- Langkah awal,, pengenalan seks adalah tugas orang tua \n- Untuk skala besar misalnya pemberian edukasi seks di sekolah atau acara acara tertentu boleh saja pendampingan dari ahli</string>
+    <string name="isi3_pk1">Kapan waktu yang tepat untuk memulai edukasi?</string>
+    <string name="isi4_pk1"> - Bisa dimulai sejak dini mungkin, misalnya dari bayi, kita biasakan menyapa anak dengan bilang” anak perempuan mama ini cantik sekali, anak laki- laki ganteng mama mandi yuk” jadi anak sudah terbiasa dengan konsep laki - laki dan perempuan.\n - Ketika anak sudah bertanya, karena ketika ketika anak bertanya anak sudah mulai berfikir dan tertarik tentang seks dan lebih cendrung untuk menyimak penjelasan ortu\n - Bisa  dimulai anak usia 3-4 tahun.</string>
+    <string name="isi5_pk1">Tahapan fase psikoseksual adalah bagaimana anak tumbuh sebagai makhluk seksual, anak-anak dilahirkan sudah disertai dengan dorongan seksual, dimana melalui tahapan tersebut mereka mendapat kesengan dan energy melalui berbagai objek yang ada pada tubuh anak itu sendiri</string>
+    <string name="isi6_pk1"> a. Oral: 0-1 tahun ( mulut) memperoleh kesenangan melalui aktivitas menghisap, menggigit dan mengunyah tugas menyusu, berpisah dari ibu\n b. Anal 1-3 tahun ( anus)  memperoleh kesenangan dengan menahan buang air besar tugas: toilet training \n c. Phalik 3- 5 tahun ( genital): memperoleh kesenangan daridengan memegang ara kelamin tugas:  identifikasi  jenis kelamin diri sendiri dan identifikasi terhadap individu dewasa yang  berjenis kelamin sama\n d. Latens 5- 12 tahun: mulai berinteraksi social dengan teman sebaya dan pencapaian prestasi\n e. Genital lebih dari 12 tahun: anak tertarik secara seksual pada individu lain</string>
+    <string name="isi7_pk1">Langkah awal yang harus dilakukan dalam memberikan edukasi seks:\n - Edukasi dapat diberikan secara bertahap, disesuaikan dengan kebutuhan dan usia anak serta daya tangkap anak\n - Cara penyampaian yang tepat akan membuat anak lebih mudah memahami, Contoh: anak usia balita bisa menggunakan media boneka, gambar berwarna, lagu- lagu anak usia sekolah bisa mendiskusikan melalui masalah sehari- hari. \n - Mengajarkan pada anak nama anggota tubuh dan fungsinya dengan menyebutkan anggota tubuh dengan nama sebenarnya\n - Persiapan pubertas: edukasi seks, sifatnya fleksibel, tidak kaku dan sangat memungkinkan hal tersebut masuk dalam obralan sehari- hari \n Bagaimana cara mengajarkan keterbukaan pada anak\n - Komunikasi yang baik, selalu tanyakan pendapat mereka mengenai topik- topic yang ingin didiskusikan dengan pertanyaan terbuka\n - Hindari penghakiman pada anak\nMemberikan edukasi  seksual pada anak, tidak menjamin mereka akan terbebas dari resiko terkena pelecehan seksual, namun tidak memberikan edukasi justru akan membuat anak berada pada resiko yang lebih besar</string>
 
-<!-- berita meteri 2-->
+    <!-- berita meteri 2-->
     <string name="judul_pk2">Alasan Pentingnya Memberikan Pendidikan Seks untuk Anak</string>
 
 </resources>
