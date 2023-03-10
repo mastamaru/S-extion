@@ -20,6 +20,9 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
 
+
+
+
         //switch activity ke home
         RelativeLayout HomeLayout = findViewById(R.id.buttonHome);
         HomeLayout.setOnClickListener(new View.OnClickListener() {

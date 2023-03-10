@@ -2,6 +2,6 @@
 <resources>
     <string-array name="items">
         <item>Pelajar</item>
-        <item>Orang Tua</item>
+        <item>Orangtua</item>
     </string-array>
 </resources>

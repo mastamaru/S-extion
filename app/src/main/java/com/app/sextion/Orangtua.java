@@ -8,68 +8,64 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
-
-public class MainActivity extends AppCompatActivity {
-
-
+public class Orangtua extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_orangtua);
 
-    // Mendapatkan instance dari SharedPreferences
+
+        // Mendapatkan instance dari SharedPreferences
         SharedPreferences savedPekerjaan = getSharedPreferences("myPrefs", MODE_PRIVATE);
-    // Mendapatkan nilai savedPekerjaan dari SharedPreferences
+        // Mendapatkan nilai savedPekerjaan dari SharedPreferences
         String lastSelectedPekerjaan = savedPekerjaan.getString("selectedPekerjaan", "");
 
-        Toast.makeText(this, "Last selected pekerjaan: " + lastSelectedPekerjaan, Toast.LENGTH_SHORT).show();
 
 
         // Cek nilai savedPekerjaan
-        if ("Orangtua".equals(lastSelectedPekerjaan)) {
-            // Jika last selected Pekerjaan = "Orang ua", buka Activity lain
-            Intent intent = new Intent(MainActivity.this, Orangtua.class);
+        if ("Pelajar".equals(lastSelectedPekerjaan)) {
+            // Jika last selected Pekerjaan = "pelajar", buka Activity lain
+            Intent intent = new Intent(Orangtua.this, MainActivity.class);
             startActivity(intent);
             finish(); // Selesai (tutup) MainActivity agar tidak bisa kembali ke sini
         } else {
-            // Jika savedPekerjaan tidak sama dengan "orang tua", tampilkan MainActivity biasa
-            setContentView(R.layout.activity_main);
+            // Jika savedPekerjaan tidak sama dengan "Pelajar", tampilkan MainActivity biasa
+            setContentView(R.layout.activity_orangtua);
             // Lakukan inisialisasi UI dan lain-lain di sini
         }
+
 
         //switch activity ke konseling
         RelativeLayout konselingLayout = findViewById(R.id.buttonChat);
         konselingLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Konseling.class);
+                Intent intent = new Intent(Orangtua.this, Konseling.class);
                 startActivity(intent);
             }
         });
 
-        //switch activity ke materi remaja
-        LinearLayout materiRemaja1 = findViewById(R.id.materi_remaja1);
-        materiRemaja1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, materiremaja1.class);
-                startActivity(intent);
-            }
-        });
 
         //switch activity ke profile
         RelativeLayout profileLayout = findViewById(R.id.buttonProfile);
         profileLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Profile.class);
+                Intent intent = new Intent(Orangtua.this, Profile.class);
                 startActivity(intent);
             }
         });
 
-
+        //switch activity ke materi remaja
+        LinearLayout materiOrtu1 = findViewById(R.id.materi_ortu1);
+        materiOrtu1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Orangtua.this, materiremaja1.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Sextion"
         tools:targetApi="31">
         <activity
+            android:name=".beritaremaja2"
+            android:exported="false" />
+        <activity
+            android:name=".Orangtua"
+            android:exported="false" />
+        <activity
             android:name=".beritaremaja1"
             android:exported="false" />
         <activity
