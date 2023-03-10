@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".beritaremaja1">
+    tools:context=".beritaremaja2">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="52dp"
@@ -15,17 +16,17 @@
         <ImageButton
             android:id="@+id/backToHome"
             android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_height="match_parent"
             android:background="@color/white"
             android:contentDescription="@string/back"
             android:src="@drawable/back" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10sp"
             android:gravity="center_vertical"
-            android:text="@string/judul_pk1"
+            android:text="@string/judul_pk2"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -35,17 +36,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
-
+        app:layout_constraintTop_toTopOf="parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
             android:paddingHorizontal="24dp"
-            android:paddingVertical="6dp">
-
+            android:paddingVertical="6dp"
+            >
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,124 +56,62 @@
                     android:layout_height="400sp"
                     android:layout_centerInParent="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/bukugenderr" />
+                    android:src="@drawable/beritapk2" />
             </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="2dp"
-                android:text="@string/penulis"
+                android:text="@string/bold_pk2"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"/>
             <View
                 android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
+                android:layout_height="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/isi_pk2"
                 android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi_pk1"
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
+                android:lineSpacingExtra="1.5dp"
                 android:textSize="16sp" />
-
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
+                android:layout_height="10dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/isi2_pk2"
                 android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/bold_pk1"
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
                 android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi2_pk1"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
                 android:textSize="16sp" />
-
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
+                android:layout_height="10dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/isi3_pk2"
                 android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi3_pk1"
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
                 android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi4_pk1"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
                 android:textSize="16sp" />
-
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi5_pk1"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi6_pk1"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
-                android:lineSpacingExtra="1.5dp"
-                android:text="@string/isi7_pk1"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:layout_height="10dp"/>
         </LinearLayout>
 
     </ScrollView>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

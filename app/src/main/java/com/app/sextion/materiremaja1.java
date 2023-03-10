@@ -36,6 +36,16 @@ public class materiremaja1 extends AppCompatActivity {
             }
         });
 
+        //switch activity ke berita2
+        LinearLayout berita_pk2 = findViewById(R.id.berita_pk2);
+        berita_pk2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(materiremaja1.this, beritaremaja2.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
