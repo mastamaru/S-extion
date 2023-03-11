@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     // Mendapatkan nilai savedPekerjaan dari SharedPreferences
         String lastSelectedPekerjaan = savedPekerjaan.getString("selectedPekerjaan", "");
 
-        Toast.makeText(this, "Last selected pekerjaan: " + lastSelectedPekerjaan, Toast.LENGTH_SHORT).show();
 
 
         // Cek nilai savedPekerjaan

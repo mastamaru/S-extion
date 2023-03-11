@@ -7,23 +7,22 @@
     tools:context=".beritaremaja1">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="52sp"
         android:gravity="center_vertical"
-        android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/backToHome"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
             android:background="@color/white"
             android:contentDescription="@string/back"
             android:src="@drawable/back" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
             android:gravity="center_vertical"
             android:text="@string/judul_pk1"
             android:textColor="@color/black"
@@ -34,17 +33,16 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="52sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:paddingHorizontal="24dp"
-            android:paddingVertical="6dp">
+            android:paddingHorizontal="24dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -54,7 +52,7 @@
                 <ImageView
                     android:id="@+id/image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="400sp"
+                    android:layout_height="400dp"
                     android:layout_centerInParent="true"
                     android:scaleType="fitCenter"
                     android:src="@drawable/bukugenderr" />

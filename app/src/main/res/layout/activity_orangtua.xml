@@ -56,7 +56,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/repro" />
+                android:src="@drawable/bocil69yo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/gendericon" />
+                android:src="@drawable/bocil912yo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/hiv" />
+                android:src="@drawable/bocil1214yo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/hiv" />
+                android:src="@drawable/bocil1418yo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -170,20 +170,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
-
-
         <RelativeLayout
             android:id="@+id/buttonHome"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
+            android:layout_width="60sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
             >
 
             <ImageView
-                android:layout_width="35sp"
-                android:layout_height="35sp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/home"
                 android:contentDescription="@string/home"
@@ -194,7 +192,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:textSize="14sp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="35sp"
                 android:text="@string/home"
                 android:textColor="@color/white" />
 
@@ -202,12 +200,12 @@
 
         <RelativeLayout
             android:id="@+id/buttonChat"
-            android:layout_width="65dp"
-            android:layout_height="wrap_content"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20sp"
             >
             <ImageView
                 android:layout_width="35dp"
@@ -222,23 +220,23 @@
                 android:layout_height="wrap_content"
                 android:maxLines="2"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="35sp"
                 android:textSize="14sp"
                 android:text="@string/chat"
                 android:textColor="@color/white" />
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/buttonProfile"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
+            android:layout_width="60sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20sp"
             >
             <ImageView
-                android:layout_width="35sp"
-                android:layout_height="35sp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/profile"
                 android:contentDescription="@string/profile"
@@ -249,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:textSize="14sp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="35sp"
                 android:text="@string/profile"
                 android:textColor="@color/white" />
 

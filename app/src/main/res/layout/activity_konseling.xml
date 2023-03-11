@@ -36,8 +36,8 @@
 
         <RelativeLayout
             android:id="@+id/buttonHome"
-            android:layout_width="60dp"
-            android:layout_height="65dp"
+            android:layout_width="60sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
@@ -48,33 +48,34 @@
                 android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/home"
+                android:contentDescription="@string/home"
                 app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-
-                android:layout_marginTop="35dp"
-                android:text="Beranda"
+                android:textSize="14sp"
+                android:layout_marginTop="35sp"
+                android:text="@string/home"
                 android:textColor="@color/white" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/buttonChat"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20sp"
             >
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
-
+                android:contentDescription="@string/chat"
                 android:src="@drawable/chat"
                 app:tint="@color/white" />
 
@@ -83,33 +84,35 @@
                 android:layout_height="wrap_content"
                 android:maxLines="2"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="35dp"
-                android:text="Konseling"
+                android:layout_marginTop="35sp"
+                android:textSize="14sp"
+                android:text="@string/chat"
                 android:textColor="@color/white" />
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/buttonProfile"
-            android:layout_width="60dp"
-            android:layout_height="65dp"
+            android:layout_width="60sp"
+            android:layout_height="65sp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20sp"
             >
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/profile"
+                android:contentDescription="@string/profile"
                 app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-
-                android:layout_marginTop="35dp"
-                android:text="Profil"
+                android:textSize="14sp"
+                android:layout_marginTop="35sp"
+                android:text="@string/profile"
                 android:textColor="@color/white" />
 
         </RelativeLayout>

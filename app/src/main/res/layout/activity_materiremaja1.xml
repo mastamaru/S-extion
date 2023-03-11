@@ -9,24 +9,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="52sp"
         android:background="@color/white"
         android:gravity="center_vertical"
-        android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/backToHome"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
             android:background="@color/white"
             android:contentDescription="@string/back"
             android:src="@drawable/back" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="10dp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="10sp"
             android:gravity="center_vertical"
             android:text="@string/remaja1"
             android:textColor="@color/black"
@@ -36,15 +35,15 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="52dp"
+        android:layout_height="400sp"
+        android:layout_marginTop="52sp"
         android:background="@color/white"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/berita_pk1"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="80sp"
             android:background="@color/white"
             android:gravity="center_vertical"
             android:orientation="horizontal"
@@ -52,8 +51,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <RelativeLayout
-                android:layout_width="70dp"
-                android:layout_height="70dp">
+                android:layout_width="70sp"
+                android:layout_height="70sp">
 
                 <ImageView
                     android:id="@+id/image_pk1"
@@ -65,7 +64,7 @@
 
             <TextView
                 android:layout_width="280dp"
-                android:layout_height="40dp"
+                android:layout_height="40sp"
                 android:layout_marginLeft="12sp"
                 android:gravity="start"
                 android:text="@string/judul_pk1"
@@ -77,8 +76,8 @@
         <LinearLayout
             android:id="@+id/berita_pk2"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="80dp"
+            android:layout_height="80sp"
+            android:layout_marginTop="80sp"
             android:background="@color/white"
             android:gravity="center_vertical"
             android:orientation="horizontal"
@@ -86,8 +85,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <RelativeLayout
-                android:layout_width="70dp"
-                android:layout_height="70dp">
+                android:layout_width="70sp"
+                android:layout_height="70sp">
 
                 <ImageView
                     android:id="@+id/image_pk2"
@@ -98,8 +97,8 @@
             </RelativeLayout>
 
             <TextView
-                android:layout_width="280dp"
-                android:layout_height="40dp"
+                android:layout_width="280sp"
+                android:layout_height="40sp"
                 android:layout_marginLeft="12sp"
                 android:gravity="start"
                 android:text="@string/judul_pk2"

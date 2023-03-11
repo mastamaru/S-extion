@@ -61,7 +61,6 @@ public class Profile extends AppCompatActivity {
                 SharedPreferences.Editor editor = savedPekerjaan.edit();
                 editor.putString("selectedPekerjaan", selectedPekerjaan);
                 editor.apply();
-                Toast.makeText(Profile.this, selectedPekerjaan, Toast.LENGTH_SHORT).show();
             }
 
             @Override
